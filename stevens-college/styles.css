@@ -1,1 +1,35 @@
-/* Add your CSS here */
+*
+{
+
+
+}
+
+img
+{
+  display: block;
+  margin: auto;
+
+}
+
+
+
+h1
+{
+  font-size: 5em;
+
+}
+
+button
+{
+  background:rgb(168, 10, 60);
+  color:white;
+  border: none;
+  padding: 15px 32px;
+  margin:2%;
+}
+
+div
+{
+  display: flex;
+  justify-content: center;
+}

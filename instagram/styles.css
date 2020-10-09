@@ -1,1 +1,33 @@
-/* Add your CSS here */
+div
+{
+  border-color: gainsboro;
+  border-width: 2px;
+}
+aside
+{
+  width:30%;
+
+
+  margin-left: 1%;
+  float:left;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 2px;
+}
+.heading
+{
+  color:gray;
+  font-size: 2em;
+
+}
+.sub
+{
+  line-height: 2;
+  padding-left: 3%;
+  font-size: 1.7em;
+}
+
+ul
+{
+  list-style: none;
+}
