@@ -1,1 +1,33 @@
-/* Add your CSS here */
+*
+{
+  font-family: sans-serif;
+}
+
+h1
+{
+  color:orange;
+}
+
+p
+{
+  color:gray;
+}
+
+a
+{
+  display: block;
+  padding:3%;
+}
+
+span
+{
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 25%;
+}
+
+div
+{
+  display:flex;
+  flex-wrap: wrap;
+}
