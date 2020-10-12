@@ -1,5 +1,6 @@
 *
 {
+  /* give everything that nice font */
   font-family: sans-serif;
 }
 
@@ -15,12 +16,14 @@ p
 
 a
 {
+  /* give the picture some breathing room */
   display: block;
   padding:3%;
 }
 
 span
 {
+  /* give each item some breathing room */
   padding-left: 40px;
   padding-right: 40px;
   max-width: 25%;
@@ -28,6 +31,7 @@ span
 
 div
 {
+  /* make the itemms wrap if there is not enough room, rather than squish them */
   display:flex;
   flex-wrap: wrap;
 }

@@ -1,26 +1,19 @@
-*
-{
-
-
-}
 
 img
 {
   display: block;
   margin: auto;
-
 }
-
-
 
 h1
 {
+  /* big heading */
   font-size: 5em;
-
 }
 
 button
 {
+  /* that nice colored bitton with white text*/
   background:rgb(168, 10, 60);
   color:white;
   border: none;
@@ -30,6 +23,7 @@ button
 
 div
 {
+  /* keep all three buttons on one line */
   display: flex;
   justify-content: center;
 }

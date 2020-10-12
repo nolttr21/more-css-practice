@@ -1,12 +1,14 @@
 *
 {
+  /* double space everything and give it that nice font */
   line-height: 2;
   font-family: sans-serif;
 }
 h1
 {
-
+  /* give it a background with incredible width... */
   background-image: url(http://via.placeholder.com/1000x50);
+  /* but you can only see whats on the screen, ho horizontal scroll bar for the rest of the image */
   overflow: hidden;
   margin: 0px;
   padding: 0px;
@@ -16,6 +18,7 @@ h1
 
 .full
 {
+  /* input fields that are supposed to take up the whole screen will, with a little space on the sides and bottom */
   width:98%;
   margin-bottom: 20px;
   margin-left: 1%;
@@ -33,6 +36,7 @@ input, label {
 
 .r
 {
+  /* the check in feild will float on the left */
   float:left;
   width:49%;
 
@@ -40,23 +44,30 @@ input, label {
 
 .l
 {
+  /* the check out feild will also float on the left, but after the check in */
   float:left;
   width:49%;
   margin-left: 1%;
 }
+
 [type = "submit"]
 {
+  /* the submit button will be salmon and large */
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: salmon;
   color:white;
 }
+
 label
 {
+  /* give the labels a little breathing room */
   margin-left: 1%;
 }
+
 span
 {
+  /* make the stuff at the bottom fit side by side */
   display: inline-block;
   width:32%;
   border-color: gray;

@@ -1,5 +1,6 @@
 *
 {
+  /* give it that nice font */
   font-family: sans-serif;
 }
 h1
@@ -11,6 +12,7 @@ h1
 }
 .center
 {
+  /* remember that paragraph from earlier thats supposed to be centered? */
   text-align: center;
   color:gray;
   font-family: sans-serif;
@@ -18,6 +20,7 @@ h1
 
 a
 {
+  /* its a link, but we dont want an underline */
   margin: 3%;
   color:deepskyblue;
   text-decoration: none;
@@ -25,31 +28,36 @@ a
 
 .links
 {
+  /* display our links in the middle of the screen */
   display:flex;
   justify-content: center;
 }
 
 .right
 {
+  /* float the stuff that is to be on the right, to the right */
   float : right;
   width: 43%
 
 }
 .left
 {
+  /* float the stuff that is to be on the left, to the left */
   float:left;
   width: 43%;
-
 }
 
 img
 {
+  /* give the picture some breathing room */
   float:left;
   padding: 1%;
 
 }
+
 h2
 {
+  /* keep it next to the image */
   display: inline;
 }
 

@@ -5,9 +5,8 @@ div
 }
 aside
 {
+  /* make the sidebar appear on the side */
   width:30%;
-
-
   margin-left: 1%;
   float:left;
   border-style: solid;
@@ -29,5 +28,6 @@ aside
 
 ul
 {
+  /* we don't need no bullet points */
   list-style: none;
 }
