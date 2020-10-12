@@ -1,1 +1,65 @@
-/* Add your CSS here */
+*
+{
+  line-height: 2;
+  font-family: sans-serif;
+}
+h1
+{
+
+  background-image: url(http://via.placeholder.com/1000x50);
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+
+}
+
+.full
+{
+  width:98%;
+  margin-bottom: 20px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.half
+{
+  width:98%;
+}
+
+input, label {
+    display:block;
+}
+
+.r
+{
+  float:left;
+  width:49%;
+
+}
+
+.l
+{
+  float:left;
+  width:49%;
+  margin-left: 1%;
+}
+[type = "submit"]
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: salmon;
+  color:white;
+}
+label
+{
+  margin-left: 1%;
+}
+span
+{
+  display: inline-block;
+  width:32%;
+  border-color: gray;
+  border-style: solid;
+  line-height: 1;
+}
